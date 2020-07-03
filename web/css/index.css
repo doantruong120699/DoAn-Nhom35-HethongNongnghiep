@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, "Time New Roman", sans-serif;
+    font-size: 16px;
+    background-color: #c1c7d2;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#masterhead {
+    position: relative;
+    background-color: #2E2B2C;
+    height: 140px;
+    margin-top: 0px;
+}
+#masterhead img {
+    position: absolute;
+    height: 140px;
+    width: 180px;
+    left: 50px;
+}
+#slogan {
+    position: absolute;
+    /* height: 50px; */
+    top: 0px;
+    left: 250px;
+}
+@font-face{
+    font-family: myFont;
+    src: url(../fonts/Tr2n.woff);
+}
+#slogan h1 {
+    font-family: myFont;
+    color: deepskyblue;
+    font-size: 60px;
+    background-color: #2E2B2C;
+    /* border: solid 3px deepskyblue; */
+    /* border-radius: 70px;  */
+}
+#wrap {
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+#innerwrap {
+    background-image: url('../images/inner-wrap_bg.png') ;
+    background-repeat: repeat-x;
+}
+#innerwrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+#mainnav {
+    margin-top: 0px;
+    background-color: #2E2B2C;
+    height: 35px;
+}
+
+#mainnav li {
+    float: left;
+    width: 160px;
+    height: 35px;
+    background-color: deepskyblue;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    line-height: 35px;
+    font-weight: bold;
+}
+#mainnav #login li {
+    float: right;
+    width: 260px;
+    height: 35px;
+    background-color: deepskyblue;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    line-height: 35px
+}
+#mainnav a {
+    text-decoration: none;
+    color: #fff;
+}
+#mainnav a:hover {
+    color: #2E2B2C;
+}
+#sidebar {
+    float: left;
+    width: 350px;
+    /* border: solid 3px deepskyblue; */
+}
+
+#main {
+    float: left;
+    width: 400px;
+    /* border: solid 3px deepskyblue; */
+}
+#main li {
+    font-size: 0.85em;
+}
+#footer {
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 118px;
+    padding-top: 10px;
+}
+#footer p {
+    margin: 10px 0 0 20px;
+    width: 280px;
+    font-size: 0.689em;
+}
+#sidebar p, #sidebar h2, #sidebar h3, #sidebar h4,
+#main p, #main h1, #main h2, #main h3, #main h4 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#bioclass {
+    margin: 20px;
+}
+table {
+    margin: 0 auto;
+    border-color: #efefef;
+}
+p, li {
+    font-size: 0.875em;
+    line-height: 1.75em;
+
+}
+h1 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.125em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+
+h3 {
+    font-size: 0.875em;
+    letter-spacing: 0.1em
+}
+
